@@ -1,13 +1,26 @@
 {
-  "name": "vuepress-starter",
+  "name": "mflyyou",
   "version": "1.0.0",
+  "description": "张攀钦的学习笔记及博客",
   "main": "index.js",
+  "repository": "git@github.com:zhangpanqin/mflyyou.git",
+  "author": "zhangpanqin <zhangpanqin@outlook.com>",
   "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.8",
+    "@vuepress/plugin-medium-zoom": "^1.9.8",
+    "@vuepress/plugin-pwa": "^1.9.8",
+    "vue-toasted": "^1.1.28",
+    "vuepress": "^1.9.8",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-medium-zoom": "^1.1.9",
+    "vuepress-plugin-table-of-contents": "^1.1.7",
+    "vuepress-plugin-container": "^2.1.5",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
-  },
-  "devDependencies": {
-    "vuepress": "^1.9.8"
   }
 }
